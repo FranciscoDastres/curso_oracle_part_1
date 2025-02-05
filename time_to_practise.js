@@ -10,4 +10,10 @@ alert("!Error! Completa todos los campos");
 
 let mensajeDeError = "Error! Completa todos los campos";
 alert(mensajeDeError);
-prompt("Ingresa tu nombre");
+
+let ingresarNombre = prompt("Ingresa tu nombre");
+let ingresarEdad = prompt("Ingresa tu edad");
+
+if (ingresarEdad >= 18 ){
+    alert("¡Puedes obtener tu licencia de conducir!. " + ingresarNombre +"Felicidades!");
+}
